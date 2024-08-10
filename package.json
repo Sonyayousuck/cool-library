@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "type": "module",
   "scripts": {
+    "start": "live-server ",
+    "build": "rollup -c --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +19,14 @@
     "url": "https://github.com/Sonyayousuck/.cool-library/issues"
   },
   "homepage": "https://github.com/Sonyayousuck/.cool-library#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^9.8.0",
+    "globals": "^15.9.0",
+    "rollup": "^4.20.0"
+  },
   "dependencies": {
-    "axios": "^1.7.3"
+    "rollup-plugin-import-css": "^3.5.0"
   }
 }
