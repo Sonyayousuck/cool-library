@@ -1,0 +1,31 @@
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.panel{
+    display:flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.panel-item{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.favorites_{
+    font-weight: 400px;
+}
+
+.search_{
+    font-weight: 700px;
+}
+
