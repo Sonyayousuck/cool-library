@@ -1,21 +1,23 @@
-.header{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 30px;
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	margin-top: 20px;
 }
 
 .panel{
     display:flex;
     align-items: center;
     gap: 27px;
+    font-size: 14px;
 }
 
 .panel-item{
     display:flex;
     align-items: center;
     gap: 10px;
-    font-size: 14px;
     line-height: 20px;
     color: var(--black);
     text-decoration: none;
@@ -27,5 +29,10 @@
 
 .search_{
     font-weight: 700px;
+}
+
+.favorites-count{
+    display: flex;
+    align-items: center;
 }
 

@@ -15,17 +15,13 @@ export class Header extends DivComponent{
         <img src = 'static/Logo.svg'>
         </div>
         <div class = 'panel'>
-            <div class = 'panel-item search_'>
-                <a class = 'search-link'>
+                <a class = 'search_panel-item'>
                 <img src = 'static/Search-icon.svg'>
                  Поиск книг </a>
-            </div>
 
-            <div class = 'panel-item favorites_'>
-                <a class = 'favorites-link'> 
+                <a class = 'favorites_ panel-item'> 
                 <img src = 'static/favorites-icon.svg'>
                 Избранное </a>
-            </div>
 
             <div class = 'favorites-count'>
                 ${this.appState.favourites.lenght}
